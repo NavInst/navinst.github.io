@@ -25,6 +25,18 @@ layout: null
 }
 
 /* --- General --- */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.video-container {
+    flex: 1;
+    text-align: center;
+}
 
 html {
   font-size: 100%
