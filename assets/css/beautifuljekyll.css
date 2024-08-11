@@ -172,7 +172,7 @@ img {
 }
 
 .navbar-custom .navbar-brand {
-  line-height: 1.5;
+  line-height: 3.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   font-size: 1.125rem;
@@ -200,7 +200,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 3.125rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
