@@ -7,6 +7,8 @@ title: Platform
   <img src="/assets/img/coordsys.png" alt="NavINST platform" width="640">
 </div>
 
+All sensors available on our platform are listed below. For your convenience, we have included links to the manufacturers' websites and corresponding ROS messages. For more technical details, please refer to our paper.
+
 <div style="width: 100%; overflow-x: auto;">
   <table border="1" cellspacing="0" cellpadding="5" style="width: 1280px; margin: 0 auto;">
     <thead>
@@ -28,7 +30,7 @@ title: Platform
         <td>1</td>
         <td>200</td>
         <td>/novatel/imu</td>
-        <td>sensor_msgs/Imu</td>
+        <td><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a></td>
       </tr>
       <tr>
         <td>b</td>
