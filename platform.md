@@ -7,8 +7,8 @@ title: Platform
   <img src="/assets/img/coordsys.png" alt="NavINST platform" width="640">
 </div>
 
-<div style="margin: 0 auto; width: fit-content;">
-  <table border="1" cellspacing="0" cellpadding="5">
+<div style="width: 100%; overflow-x: auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 720px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Label</th>
@@ -23,7 +23,7 @@ title: Platform
     <tbody>
       <tr>
         <td>a</td>
-        <td><a href="https://novatel.com/products/gnss-inertial-navigation-systems/imus/kvh1750 target="_blank"">KVH1750</a></td>
+        <td><a href="https://novatel.com/products/gnss-inertial-navigation-systems/imus/kvh1750" target="_blank">KVH1750</a></td>
         <td>IMU</td>
         <td>1</td>
         <td>200</td>
