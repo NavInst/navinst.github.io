@@ -4,7 +4,7 @@ title: Platform
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/img/coordsys.pgn" alt="NavINST platform" width="640">
+  <img src="/assets/img/coordsys.png" alt="NavINST platform" width="640">
 </div>
 
 <div style="text-align: center;">
