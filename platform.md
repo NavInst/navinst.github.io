@@ -7,7 +7,7 @@ title: Platform
   <img src="/assets/img/coordsys.png" alt="NavINST platform" width="640">
 </div>
 
-<div style="text-align: center;">
+<div style="margin: 0 auto; width: fit-content;">
   <table border="1" cellspacing="0" cellpadding="5">
     <thead>
       <tr>
