@@ -4,7 +4,7 @@ title: Platform
 ---
 
 <div style="text-align: center;">
-  <img src="assets/img/coordsys.png" alt="NavINST platform" width="600">
+  <img src="/assets/img/coordsys.png" alt="NavINST platform" width="600">
 </div>
 
 <div style="text-align: center;">
@@ -22,5 +22,6 @@ title: Platform
 | -     | Automotive Scanner OBDII          | Odometer               | 1   | 16 | /obd2/speed<br>/obd2/rpm<br>/obd2/maf                                                                                                                     | ❑                                                                                                                                                 |
 | -     | OPS241-A                          | 1D Doppler Radar       | 1   | 18 | /omnipresense/radar/front_bumper                                                                                                                          | ❑                                                                                                                                                 |
 **Note:** ❑ custom message.
+
 </div>
 
