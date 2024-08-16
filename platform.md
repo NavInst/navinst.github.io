@@ -23,7 +23,7 @@ title: Platform
     <tbody>
       <tr>
         <td>a</td>
-        <td><a href="https://novatel.com/products/gnss-inertial-navigation-systems/imus/kvh1750">KVH1750</a></td>
+        <td><a href="https://novatel.com/products/gnss-inertial-navigation-systems/imus/kvh1750 target="_blank"">KVH1750</a></td>
         <td>IMU</td>
         <td>1</td>
         <td>200</td>
