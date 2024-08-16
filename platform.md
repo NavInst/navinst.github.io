@@ -8,7 +8,7 @@ title: Platform
 </div>
 
 <div style="width: 100%; overflow-x: auto;">
-  <table border="1" cellspacing="0" cellpadding="5" style="width: 800px; margin: 0 auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 1280px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Label</th>
