@@ -21,6 +21,8 @@ author: NavINST Lab
 
 navbar-links:
   Platform: "platform"
+  Trajectories: "trajectories"
+  Code: "code"
 
 ################
 # --- Logo --- #
