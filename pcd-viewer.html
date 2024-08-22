@@ -26,7 +26,7 @@
 
         // Load the PCD file
         const loader = new THREE.PCDLoader();
-        loader.load('/assets/map/Indoor_garage_3D_map_LLF.pcd', function (points) {
+        loader.load('assets/map/Indoor_garage_3D_map_LLF.pcd', function (points) {
             scene.add(points);
             camera.position.z = 2;  // Adjust camera position if needed
             animate();
