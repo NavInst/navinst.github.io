@@ -10,7 +10,3 @@ The four outdoor trajectories can be visualized on the interactive map below. We
 </div>
 
 Our dataset includes an indoor map built with advanced stationary LiDAR scanners. The 3D point cloud of the garage can be used for various indoor navigation research purposes.
-
-<div>
-  <iframe src="pcd-viewer.html" width="100%" height="480" style="border:none;"></iframe>
-</div>
