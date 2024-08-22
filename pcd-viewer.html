@@ -29,7 +29,7 @@
     
         // Load the PCD file
         const loader = new PCDLoader();
-        loader.load('/assets/map/Indoor_garage_3D_map_LLF.pcd', function (points) {
+        loader.load('assets/map/Indoor_garage_3D_map_LLF.pcd', function (points) {
             scene.add(points);
             camera.position.z = 2;
             animate();
