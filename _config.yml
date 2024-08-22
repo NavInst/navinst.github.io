@@ -21,7 +21,7 @@ author: NavINST Lab
 
 navbar-links:
   Platform: "platform"
-  Trajectories: "trajectories"
+  Trajectories: "pcd-viewer"
   Code: "code"
 
 ################
