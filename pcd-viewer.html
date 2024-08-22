@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trajectories</title>
+    <title>PCD Viewer</title>
     <style>
         body { margin: 0; }
         canvas { display: block; }
@@ -22,7 +22,7 @@
         document.body.appendChild(renderer.domElement);
 
         // Add light to the scene
-        const light = new THREE.AmbientLight(0x404040);
+        const light = new THREE.AmbientLight(0x404040); // soft white light
         scene.add(light);
 
         // Load the PCD file
