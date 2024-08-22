@@ -4,7 +4,7 @@ title: Platform
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/img/coordsys.png" alt="NavINST platform" width="640">
+  <img src="/assets/img/coordsys.png" alt="NavINST platform" width="100%">
 </div>
 
 All sensors available on our platform are listed below. For your convenience, we have included links to the manufacturers' websites and corresponding ROS messages. For more technical details, please refer to our paper.
