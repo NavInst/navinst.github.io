@@ -3,7 +3,7 @@ layout: page
 title: Platform
 ---
 
-<div style="text-align: center;">
+<div style="text-align: center; width: 100%">
   <img src="/assets/img/coordsys.png" alt="NavINST platform" width="100%">
 </div>
 
