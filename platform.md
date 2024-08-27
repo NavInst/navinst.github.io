@@ -198,5 +198,13 @@ All sensors available on our platform are listed below. For your convenience, we
   <p>❑ custom message.</p>
 </div>
 
+We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a> template to facilitate data visualization and monitoring, as shown below. The transformation tree (TF) is also included, allowing users to easily navigate between sensors. In our setup, the KVH1750 (item 'a' in the figure above) serves as the origin.
 
-
+<div class="row">
+    <div class="video-container">
+        <video width="640" height="360" autoplay loop muted>
+            <source src="assets/video/setup_demo_foxglove.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
