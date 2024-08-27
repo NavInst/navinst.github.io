@@ -10,7 +10,7 @@ title: Platform
 All sensors available on our platform are listed below. For your convenience, we have included links to the manufacturers' websites and corresponding ROS messages. For more technical details, please refer to our paper.
 
 <div style="width: 100%; overflow-x: auto;">
-  <table border="1" cellspacing="0" cellpadding="5" style="width: 1400px; margin: 0 auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 1460px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Label</th>
@@ -34,7 +34,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>b</td>
-        <td>Xsens MTi-670G</td>
+        <td><a href="https://www.movella.com/products/sensor-modules/xsens-mti-670g-gnss-ins" target="_blank">Xsens MTi-670G</a></td>
         <td>GNSS/IMU</td>
         <td>1</td>
         <td>100</td>
@@ -61,7 +61,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>c</td>
-        <td>Velodyne VLP-16</td>
+        <td><a href="https://store.clearpathrobotics.com/products/puck" target="_blank">Velodyne VLP-16</a></td>
         <td>3D Mechanical LiDAR</td>
         <td>1</td>
         <td>10</td>
@@ -70,7 +70,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>d</td>
-        <td>Livox HAP</td>
+        <td><a href="https://www.livoxtech.com/hap" target="_blank">Livox HAP</a></td>
         <td>3D Solid-state LiDAR</td>
         <td>1</td>
         <td>10</td>
@@ -85,7 +85,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>e</td>
-        <td>Luxonis OAK-1 W PoE</td>
+        <td><a href="https://shop.luxonis.com/products/oak-1-w-poe?variant=43854167081183" target="_blank">Luxonis OAK-1 W PoE</a></td>
         <td>Monocular Camera</td>
         <td>1</td>
         <td>30</td>
@@ -100,7 +100,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>f</td>
-        <td>Stereolabs ZED X</td>
+        <td><a href="https://www.stereolabs.com/en-ca/products/zed-x" target="_blank">Stereolabs ZED X</a></td>
         <td>Stereo Camera</td>
         <td>2</td>
         <td>15</td>
@@ -135,7 +135,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>g</td>
-        <td>Smartmicro UMRR-96 Type 153</td>
+        <td><a href="https://autonomoustuff.com/products/smartmicro-automotive-radar-umrr-96" target="_blank">Smartmicro UMRR-96 Type 153</a></td>
         <td>4D Electronic Scan Radar</td>
         <td>4</td>
         <td>20</td>
@@ -149,7 +149,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>h</td>
-        <td>Novatel PwrPak7-E1</td>
+        <td><a href="https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/pwrpak7-e1" target="_blank">Novatel PwrPak7-E1</a></td>
         <td>GNSS/IMU</td>
         <td>1</td>
         <td>50</td>
@@ -164,7 +164,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>i</td>
-        <td>Novatel VEXXIS GNSS-850</td>
+        <td><a href="https://novatel.com/products/gps-gnss-antennas/vexxis-series-antennas/vexxis-gnss-800-series-antennas" target="_blank">Novatel VEXXIS GNSS-850</a></td>
         <td>GNSS Antenna</td>
         <td>1</td>
         <td>-</td>
@@ -186,7 +186,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>-</td>
-        <td>OPS241-A</td>
+        <td><a href="https://omnipresense.com/product/ops241-a-short-range-radar-sensor/" target="_blank">OPS241-A</a></td>
         <td>1D Doppler Radar</td>
         <td>1</td>
         <td>18</td>
@@ -198,7 +198,7 @@ All sensors available on our platform are listed below. For your convenience, we
   <p>❑ custom message.</p>
 </div>
 
-We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a> template to facilitate data visualization and monitoring, as shown below. The transformation tree (TF) is also included, allowing users to easily navigate between sensors. In our setup, the KVH1750 (item 'a' in the figure above) serves as the origin.
+We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a> <a href="https://github.com/NavInst/dataset/tree/main/visualization" target="_blank">template</a> to facilitate data visualization and monitoring, as shown below. The transformation tree (TF) is also included, allowing users to easily navigate between sensors. In our setup, the KVH1750 (item 'a' in the figure above) serves as the origin.
 
 <div class="row">
     <div class="video-container">
@@ -208,3 +208,7 @@ We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a>
         </video>
     </div>
 </div>
+
+**Importante notes:**
+- The linear accelerations of the IMU inside the Livox HAP LiDAR are scaled by G. Therefore, one should reverse the scaling by multiplying the measurements by 9.8.
+- The reference system of the indoor trajectories was recorded with the EPSON EP320G IMU installed inside the PwrPak7-E1 instead of the KVH1750 IMU.
