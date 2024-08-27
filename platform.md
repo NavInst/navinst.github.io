@@ -202,7 +202,7 @@ We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a>
 
 <div class="row">
     <div class="video-container">
-        <video width="640" height="360" autoplay loop muted>
+        <video width="100%" autoplay loop muted>
             <source src="/assets/video/setup_demo_foxglove.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
