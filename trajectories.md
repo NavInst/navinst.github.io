@@ -18,7 +18,7 @@ The indoor trajectories are presented below. Segments are colored according to t
 We summarize the metadata of the trajectories in the table below. The outdoor trajectories were repeated at night to provide data for computer vision practitioners interested in exploring the challenges of vehicle navigation using cameras in low-light conditions.
 
 <div style="width: 100%; display: overflow-x: auto;">
-  <table style="border="1" cellspacing="0" cellpadding="5" style="width: 1280px; margin: 0 auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 1280px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Trajectory</th>
