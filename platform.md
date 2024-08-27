@@ -10,7 +10,7 @@ title: Platform
 All sensors available on our platform are listed below. For your convenience, we have included links to the manufacturers' websites and corresponding ROS messages. For more technical details, please refer to our paper.
 
 <div style="width: 100%; overflow-x: auto;">
-  <table border="1" cellspacing="0" cellpadding="5" style="width: 1460px; margin: 0 auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 1500px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Label</th>
@@ -173,7 +173,7 @@ All sensors available on our platform are listed below. For your convenience, we
       </tr>
       <tr>
         <td>-</td>
-        <td>Automotive Scanner OBDII</td>
+        <td><a href="https://www.amazon.ca/dp/B07MQ8GHG3?ref_=cm_sw_r_cp_ud_dp_KD5QC15EPVQ25RH5GPN1" target="_blank">Automotive Scanner OBDII</a></td>
         <td>Odometer</td>
         <td>1</td>
         <td>16</td>
@@ -209,6 +209,6 @@ We provide a <a href="https://foxglove.dev/" target="_blank">Foxglove Studio</a>
     </div>
 </div>
 
-**Importante notes:**
-- The linear accelerations of the IMU inside the Livox HAP LiDAR are scaled by G. Therefore, one should reverse the scaling by multiplying the measurements by 9.8.
-- The reference system of the indoor trajectories was recorded with the EPSON EP320G IMU installed inside the PwrPak7-E1 instead of the KVH1750 IMU.
+**Important Notes:**
+- The linear accelerations of the IMU inside the Livox HAP LiDAR are scaled by the gravitational constant (G). To reverse this scaling, multiply the measurements by 9.8.
+- The reference system for the indoor trajectories was recorded using the EPSON EP320G IMU installed inside the PwrPak7-E1, rather than the KVH1750 IMU. As a result, the */novatel/imu* message for these trajectories includes readings from the EPSON EP320G IMU.
