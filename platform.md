@@ -49,14 +49,14 @@ All sensors available on our platform are listed below. For your convenience, we
           /xsens/filter/twist
         </td>
         <td>
-          sensor_msgs/Imu<br/>
-          sensor_msgs/NavSatFix<br/>
-          geometry_msgs/Vector3Stamped<br/>
-          sensor_msgs/FluidPressure<br/>
-          sensor_msgs/Temperature<br/>
-          geometry_msgs/QuaternionStamped<br/>
-          geometry_msgs/Vector3Stamped<br/>
-          geometry_msgs/TwistStamped
+          <a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/NavSatFix.html" target="_blank">sensor_msgs/NavSatFix</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3Stamped.html" target="_blank">geometry_msgs/Vector3Stamped</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/FluidPressure.html" target="_blank">sensor_msgs/FluidPressure</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Temperature.html" target="_blank">sensor_msgs/Temperature</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/QuaternionStamped.html" target="_blank">geometry_msgs/QuaternionStamped</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3Stamped.html" target="_blank">geometry_msgs/Vector3Stamped</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/TwistStamped.html" target="_blank">geometry_msgs/TwistStamped</a>
         </td>
       </tr>
       <tr>
@@ -66,7 +66,7 @@ All sensors available on our platform are listed below. For your convenience, we
         <td>1</td>
         <td>10</td>
         <td>/velodyne/lidar/points</td>
-        <td>sensor_msgs/PointCloud2</td>
+        <td><a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/PointCloud2.html" target="_blank">sensor_msgs/PointCloud2</a></td>
       </tr>
       <tr>
         <td>d</td>
@@ -79,8 +79,8 @@ All sensors available on our platform are listed below. For your convenience, we
           /livox/lidar/imu
         </td>
         <td>
-          sensor_msgs/PointCloud2<br/>
-          sensor_msgs/Imu
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/PointCloud2.html" target="_blank">sensor_msgs/PointCloud2</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a>
         </td>
       </tr>
       <tr>
@@ -94,8 +94,8 @@ All sensors available on our platform are listed below. For your convenience, we
           /oak/image_raw_color/compressed
         </td>
         <td>
-          sensor_msgs/CameraInfo<br/>
-          sensor_msgs/CompressedImage
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CameraInfo.html" target="_blank">sensor_msgs/CameraInfo</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CompressedImage.html" target="_blank">sensor_msgs/CompressedImage</a>
         </td>
       </tr>
       <tr>
@@ -119,18 +119,18 @@ All sensors available on our platform are listed below. For your convenience, we
           /zedx_right/camera_right/image_raw_color/compressed
         </td>
         <td>
-          sensor_msgs/Imu<br/>
-          sensor_msgs/Temperature<br/>
-          sensor_msgs/CameraInfo<br/>
-          sensor_msgs/CompressedImage<br/>
-          sensor_msgs/CameraInfo<br/>
-          sensor_msgs/CompressedImage<br/>
-          sensor_msgs/Imu<br/>
-          sensor_msgs/Temperature<br/>
-          sensor_msgs/CameraInfo<br/>
-          sensor_msgs/CompressedImage<br/>
-          sensor_msgs/CameraInfo<br/>
-          sensor_msgs/CompressedImage
+          <a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Temperature.html" target="_blank">sensor_msgs/Temperature</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CameraInfo.html" target="_blank">sensor_msgs/CameraInfo</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CompressedImage.html" target="_blank">sensor_msgs/CompressedImage</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CameraInfo.html" target="_blank">sensor_msgs/CameraInfo</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CompressedImage.html" target="_blank">sensor_msgs/CompressedImage</a><br/>
+          <a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Temperature.html" target="_blank">sensor_msgs/Temperature</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CameraInfo.html" target="_blank">sensor_msgs/CameraInfo</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CompressedImage.html" target="_blank">sensor_msgs/CompressedImage</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CameraInfo.html" target="_blank">sensor_msgs/CameraInfo</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/CompressedImage.html" target="_blank">sensor_msgs/CompressedImage</a>
         </td>
       </tr>
       <tr>
@@ -145,7 +145,7 @@ All sensors available on our platform are listed below. For your convenience, we
           /smartmicro/radar/rear_left<br/>
           /smartmicro/radar/rear_right
         </td>
-        <td>sensor_msgs/PointCloud2</td>
+        <td><a href="http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/PointCloud2.html" target="_blank">sensor_msgs/PointCloud2</a></td>
       </tr>
       <tr>
         <td>h</td>
@@ -158,8 +158,8 @@ All sensors available on our platform are listed below. For your convenience, we
           /novatel/gps
         </td>
         <td>
-          sensor_msgs/Imu<br/>
-          gps_common/GPSFix
+          <a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank">sensor_msgs/Imu</a><br/>
+          <a href="http://docs.ros.org/en/noetic/api/gps_common/html/msg/GPSFix.html" target="_blank">gps_common/GPSFix</a>
         </td>
       </tr>
       <tr>
