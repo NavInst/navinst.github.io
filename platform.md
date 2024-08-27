@@ -9,8 +9,8 @@ title: Platform
 
 All sensors available on our platform are listed below. For your convenience, we have included links to the manufacturers' websites and corresponding ROS messages. For more technical details, please refer to our paper.
 
-<div style="width: 100%; display: flex; justify-content: center;">
-  <table border="1" cellspacing="0" cellpadding="5" style="width: 1280px; margin: 0 auto;">
+<div style="width: 100%; overflow-x: auto;">
+  <table border="1" cellspacing="0" cellpadding="5" style="width: 1400px; margin: 0 auto;">
     <thead>
       <tr>
         <th>Label</th>
