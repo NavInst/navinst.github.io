@@ -81,3 +81,18 @@ We summarize the metadata of the trajectories in the table below. The outdoor tr
     </tbody>
   </table>
 </div>
+
+
+<div style="display: flex; flex-wrap: wrap;">
+    <!-- First Column -->
+    <div style="flex: 1; padding: 10px;">
+        <h2>Folder Structure:</h2>
+        <img src="/assets/img/folder_structure.png" alt="Folder structure" style="max-width: 100%; height: auto;">
+    </div>
+
+    <!-- Second Column -->
+    <div style="flex: 1; padding: 10px;">
+        <p>Your text goes here. You can add as much content as you like, and it will be placed next to the image and title in the first column.</p>
+        <p>More text can be added here if needed.</p>
+    </div>
+</div>
