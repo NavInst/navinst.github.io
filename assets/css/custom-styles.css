@@ -12,7 +12,7 @@
 }
 
 .citation-box {
-    background-color: #b3b3b3; /* Light gray background */
+    background-color: #f0f0f0; /* Light gray background */
     padding: 15px;             /* Space inside the box */
     border-radius: 5px;        /* Rounded corners */
     font-family: "Courier New", Courier, monospace; /* Monospace font for code */
