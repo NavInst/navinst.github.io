@@ -99,7 +99,7 @@ We summarize the metadata of the trajectories in the table below. The outdoor tr
           We structured the BAG files this way to facilitate their use; users can download only the BAG files of interest and play them together using the command <code>rosbag play *</code>, assuming all BAG files are stored in the same directory. In addition to the trajectory folders, the user can find the <i>IndoorMap</i> folder, which contains the PCD file of the indoor map, and the <i>CalibrationData</i> folder, which contains the calibration files and MATLAB projects of the tools discussed in section <i>Calibration</i> of the paper, the BAG file recorded for calibration, the ROS launch file to launch the transformation tree and the transformations considering KVH1750 as the origin (see file <code>setup_transformation.txt</code>).
         </p>
         <p style="background-color: #f0f8ff; padding: 15px; font-size: 1.2em; border: 2px solid #007acc; border-radius: 8px; text-align: center;">
-            Click <a href="https://navinst.github.io/trajectories/" target="_blank" style="font-weight: bold; color: #007acc;">here</a> to access the dataset.
+            Click <a href="https://www.dropbox.com/scl/fo/x2fvendipgpb1o2sqbxwa/AHnlSkTvJ7B_f5_r8KW9kBE?rlkey=xdq2y4ajdvy5vd9d28sfn80t6&dl=0" target="_blank" style="font-weight: bold; color: #007acc;">here</a> to access the dataset.
         </p>
 
     </div>
