@@ -3,7 +3,7 @@ layout: page
 title: Trajectories
 ---
 
-The four outdoor trajectories can be visualized on the interactive map below. Outdoor trajectories. <span style="font-family: monospace;">Urban01</span> in <span style="color: red; font-weight: bold;">red</span>, <span style="font-family: monospace;">Urban02</span> in <span style="color: blue; font-weight: bold;">blue</span>, <span style="font-family: monospace;">Urban03</span> in <span style="color: cyan; font-weight: bold;">cyan</span>, <span style="font-family: monospace;">Urban04</span> in <span style="color: yellow; font-weight: bold;">yellow</span>, <span style="font-family: monospace;">Urban05</span> in <span style="color: orange; font-weight: bold;">orange</span>, and <span style="font-family: monospace;">Urban06</span> in <span style="color: green; font-weight: bold;">green</span>.
+The six outdoor trajectories can be visualized below. 
 
 <div style="text-align: center;">
   <img src="/assets/img/outdoor_trajectories.png" alt="Outdoor trajectories" width="100%">
